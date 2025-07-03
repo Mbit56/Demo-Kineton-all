@@ -1,0 +1,800 @@
+{
+    "expand": "schema,names",
+    "startAt": 0,
+    "maxResults": 33,
+    "total": 33,
+    "issues": [
+        {
+            "id": "47af505d-521d-43a9-b9a5-3ec62b40cea8",
+            "key": "CLVC-559",
+            "fields": {
+                "summary": "Network",
+                "issuetype": {
+                    "id": "100",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "displayName": "Unassigned"
+                },
+                "reporter": {
+                    "displayName": "System"
+                },
+                "created": "2025-07-03T19:22:12.983154",
+                "updated": "2025-07-03T19:22:12.983164",
+                "description": "VCU shall communicate on both CAN1 and CAN2 acting as a gateway between two lines. On CAN1 it shall communicate with the BMS, On-Board Charger and Data Logger while on CAN2 with the Coil Driver, FLCU and Display. CAN1 and CAN2 buses baudrate shall be respectively 250 kbps and 500 kbps. Moreover, VCU shall acquire analog signals through dedicated sensors located in several parts of the vehicle [Should Have, Draft]"
+            }
+        },
+        {
+            "id": "cc480800-47a0-4c27-b3f1-c0d651120e09",
+            "key": "CLVC-561",
+            "fields": {
+                "summary": "Network",
+                "issuetype": {
+                    "id": "100",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "displayName": "Unassigned"
+                },
+                "reporter": {
+                    "displayName": "System"
+                },
+                "created": "2025-07-03T19:22:12.983328",
+                "updated": "2025-07-03T19:22:12.983332",
+                "description": "VCU messages shall be sent via CAN bus as provided by the latest version of the DBC (Customer_vx.x.dbc) [Should Have, Draft]"
+            }
+        },
+        {
+            "id": "a35f120a-d212-4603-b787-1e15e853f736",
+            "key": "CLVC-595",
+            "fields": {
+                "summary": "Pinout",
+                "issuetype": {
+                    "id": "100",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "displayName": "Unassigned"
+                },
+                "reporter": {
+                    "displayName": "System"
+                },
+                "created": "2025-07-03T19:22:12.983610",
+                "updated": "2025-07-03T19:22:12.983618",
+                "description": "VCU analog and digital I/O shall be considered as provided by the latest version of pinout (VCU_Pinout_x.x.xlsx) [Should Have, Draft]"
+            }
+        },
+        {
+            "id": "84869fc3-13be-44a9-a6ee-c04110e130a3",
+            "key": "CLVC-564",
+            "fields": {
+                "summary": "Power on/off",
+                "issuetype": {
+                    "id": "100",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "displayName": "Unassigned"
+                },
+                "reporter": {
+                    "displayName": "System"
+                },
+                "created": "2025-07-03T19:22:12.983940",
+                "updated": "2025-07-03T19:22:12.983945",
+                "description": "The VCU shall be turned on by the Key input on pin 207 and then shall wake up other ECUs. A Key Off event shall turn off the VCU [Should Have, Draft]"
+            }
+        },
+        {
+            "id": "07f6c11c-bcb3-416e-b72a-aaa12bde57d9",
+            "key": "CLVC-563",
+            "fields": {
+                "summary": "Sleep/low power",
+                "issuetype": {
+                    "id": "100",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "displayName": "Unassigned"
+                },
+                "reporter": {
+                    "displayName": "System"
+                },
+                "created": "2025-07-03T19:22:12.984184",
+                "updated": "2025-07-03T19:22:12.984192",
+                "description": "(TBD) [Should Have, Draft]\n\n---\n\nVCU gateway – Functional requirements"
+            }
+        },
+        {
+            "id": "6f8b3d77-8829-4658-9999-66a516eeadc8",
+            "key": "CLVC-582",
+            "fields": {
+                "summary": "CAN gateway",
+                "issuetype": {
+                    "id": "100",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "displayName": "Unassigned"
+                },
+                "reporter": {
+                    "displayName": "System"
+                },
+                "created": "2025-07-03T19:22:12.984298",
+                "updated": "2025-07-03T19:22:12.984301",
+                "description": "VCU shall acquire CAN1 signal and send them on CAN2 acting as a gateway between CAN buses. In particular VCU shall redirect either the information received from BMS to the display, either the commands to manage the Coil Driver [Should Have, Draft]"
+            }
+        },
+        {
+            "id": "b773be88-8654-4fa2-bfbd-7dd1981e5a1e",
+            "key": "CLVC-581",
+            "fields": {
+                "summary": "Temperature",
+                "issuetype": {
+                    "id": "100",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "displayName": "Unassigned"
+                },
+                "reporter": {
+                    "displayName": "System"
+                },
+                "created": "2025-07-03T19:22:12.984368",
+                "updated": "2025-07-03T19:22:12.984372",
+                "description": "VCU shall acquire motor temperature through a PTC thermistor placed on pin 103 and then shall send the processed value to the display on CAN2 signal VCU_VEHICLE_INFO_MotorTemp [Should Have, Draft]\n\n---\n\nBMS – Functional requirements"
+            }
+        },
+        {
+            "id": "a1fd78f6-08d0-4095-bc7a-45fcc7c79306",
+            "key": "CLVC-565",
+            "fields": {
+                "summary": "Power on/off",
+                "issuetype": {
+                    "id": "100",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "displayName": "Unassigned"
+                },
+                "reporter": {
+                    "displayName": "System"
+                },
+                "created": "2025-07-03T19:22:12.984429",
+                "updated": "2025-07-03T19:22:12.984435",
+                "description": "VCU shall power on/off the BMS through a digital output on pin 102, depending on the key value. In particular at Key On the digital output shall be at HIGH value, instead at Key Off the digital output shall be at LOW value [Should Have, Draft]"
+            }
+        },
+        {
+            "id": "7a759029-d593-4ddd-93fa-99ec8db79731",
+            "key": "CLVC-567",
+            "fields": {
+                "summary": "Communication timeout",
+                "issuetype": {
+                    "id": "100",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "displayName": "Unassigned"
+                },
+                "reporter": {
+                    "displayName": "System"
+                },
+                "created": "2025-07-03T19:22:12.984496",
+                "updated": "2025-07-03T19:22:12.984499",
+                "description": "When communicating with the BMS, VCU shall foresee a communication timeout on the BUS channel [Should Have, Draft]"
+            }
+        },
+        {
+            "id": "da9534c2-e6ec-4c88-92cf-8e993dd19293",
+            "key": "CLVC-568",
+            "fields": {
+                "summary": "Communication timeout reaction",
+                "issuetype": {
+                    "id": "100",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "displayName": "Unassigned"
+                },
+                "reporter": {
+                    "displayName": "System"
+                },
+                "created": "2025-07-03T19:22:12.984531",
+                "updated": "2025-07-03T19:22:12.984533",
+                "description": "In case of BMS timeout, VCU shall prevent the battery from delivering current. Energy absorption shall be no longer requested from the system [Should Have, Draft]"
+            }
+        },
+        {
+            "id": "c024cbb8-40c3-4274-abaf-abebb184df13",
+            "key": "CLVC-569",
+            "fields": {
+                "summary": "Error management",
+                "issuetype": {
+                    "id": "100",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "displayName": "Unassigned"
+                },
+                "reporter": {
+                    "displayName": "System"
+                },
+                "created": "2025-07-03T19:22:12.984553",
+                "updated": "2025-07-03T19:22:12.984555",
+                "description": "VCU shall read the BMS status word 1 in order to get information about general status and to identify possible errors reported by the BMS. Furthermore, the VCU shall send a message to the display in order to show the user a notification [Should Have, Draft]"
+            }
+        },
+        {
+            "id": "d4a881c1-62dc-4d0d-977f-059acf70ffdf",
+            "key": "CLVC-598",
+            "fields": {
+                "summary": "State of charge",
+                "issuetype": {
+                    "id": "100",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "displayName": "Unassigned"
+                },
+                "reporter": {
+                    "displayName": "System"
+                },
+                "created": "2025-07-03T19:22:12.984572",
+                "updated": "2025-07-03T19:22:12.984573",
+                "description": "In order to get the actual value of SoC, VCU shall analyse and integrate data regarding state of health, temperature and current absorption of the battery [Should Have, Draft]"
+            }
+        },
+        {
+            "id": "580f65f5-2dfc-4a6e-9470-52629ec8f413",
+            "key": "CLVC-570",
+            "fields": {
+                "summary": "Undervoltage error",
+                "issuetype": {
+                    "id": "100",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "displayName": "Unassigned"
+                },
+                "reporter": {
+                    "displayName": "System"
+                },
+                "created": "2025-07-03T19:22:12.984588",
+                "updated": "2025-07-03T19:22:12.984590",
+                "description": "In case of UV error, if vehicle speed is zero, the VCU shall restart the BMS and then shall immediately request a new recharge ensuring only this operating mode. No other operating mode are allowed [Should Have, Draft]"
+            }
+        },
+        {
+            "id": "d4c2985a-6152-4119-9fd3-fe7163cd4f54",
+            "key": "CLVC-571",
+            "fields": {
+                "summary": "Automatic shutdown",
+                "issuetype": {
+                    "id": "100",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "displayName": "Unassigned"
+                },
+                "reporter": {
+                    "displayName": "System"
+                },
+                "created": "2025-07-03T19:22:12.984606",
+                "updated": "2025-07-03T19:22:12.984608",
+                "description": "VCU shall foresee an automatic shutdown for BMS when the following conditions are met:\n- key on\n- vehicle not in charge\n- vehicle stopped\n- throttle pedal not pressed for at least 10 min (f.t.v.)\nif all the previous are satisfied then VCU shall rise the BMS deactivation flag\nelse if at least one of these condition fails then VCU shall restart the counter [Should Have, Draft]"
+            }
+        },
+        {
+            "id": "a98ce37a-d9ef-40d4-bd46-da3b3b8f3b4d",
+            "key": "CLVC-578",
+            "fields": {
+                "summary": "Gear disabling",
+                "issuetype": {
+                    "id": "100",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "displayName": "Unassigned"
+                },
+                "reporter": {
+                    "displayName": "System"
+                },
+                "created": "2025-07-03T19:22:12.984672",
+                "updated": "2025-07-03T19:22:12.984679",
+                "description": "VCU shall forbid the gear selection during “Charging Phase”, it shall always send on CAN the neutral value [Should Have, Draft]"
+            }
+        },
+        {
+            "id": "b5f54916-f97e-43f8-b57c-164f044517cc",
+            "key": "CLVC-594",
+            "fields": {
+                "summary": "Charging Phase Detection",
+                "issuetype": {
+                    "id": "100",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "displayName": "Unassigned"
+                },
+                "reporter": {
+                    "displayName": "System"
+                },
+                "created": "2025-07-03T19:22:12.984712",
+                "updated": "2025-07-03T19:22:12.984714",
+                "description": "The vehicle enters the “Charging Phase” if (CB_CHARGING.Charging_phase == 1) OR (<PlugDetection> == TRUE). [Should Have, Draft]"
+            }
+        },
+        {
+            "id": "f57903ab-ce25-4ecd-a67c-3a7c3a0aa6d2",
+            "key": "CLVC-586",
+            "fields": {
+                "summary": "Warning management",
+                "issuetype": {
+                    "id": "100",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "displayName": "Unassigned"
+                },
+                "reporter": {
+                    "displayName": "System"
+                },
+                "created": "2025-07-03T19:22:12.985070",
+                "updated": "2025-07-03T19:22:12.985075",
+                "description": "VCU shall read the BMS status word 2 in order to get information about warnings and possible faulty conditions. Appropriate countermeasures shall be taken into account, including sending a message to the display [Should Have, Draft]"
+            }
+        },
+        {
+            "id": "78d238b7-e13c-4e7e-9243-a190de547ba8",
+            "key": "CLVC-613",
+            "fields": {
+                "summary": "Consumption",
+                "issuetype": {
+                    "id": "100",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "displayName": "Unassigned"
+                },
+                "reporter": {
+                    "displayName": "System"
+                },
+                "created": "2025-07-03T19:22:12.985131",
+                "updated": "2025-07-03T19:22:12.985135",
+                "description": "VCU shall read the BMS signal BMS_FRAME_4_kwh_ds in order to calculate kW consumption in the time interval between two samples according to the following: Wh discharged during the interval (T1,T2) / distance travelled in the interval (T1,T2) [Should Have, Draft]\n\n---\n\nBMS – Non-functional requirement"
+            }
+        },
+        {
+            "id": "ef7052d7-fd7d-498e-8e15-b089421d08a4",
+            "key": "CLVC-566",
+            "fields": {
+                "summary": "Communication timeout",
+                "issuetype": {
+                    "id": "100",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "displayName": "Unassigned"
+                },
+                "reporter": {
+                    "displayName": "System"
+                },
+                "created": "2025-07-03T19:22:12.985175",
+                "updated": "2025-07-03T19:22:12.985178",
+                "description": "The communication timeout shall be at most 5 s (f.t.v.) [Should Have, Draft]\n\n---\n\nVehicle speed and trip distance – Functional requirements"
+            }
+        },
+        {
+            "id": "183746f0-c5ce-4ffd-91fa-b87c994f8a92",
+            "key": "CLVC-585",
+            "fields": {
+                "summary": "Motor speed",
+                "issuetype": {
+                    "id": "100",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "displayName": "Unassigned"
+                },
+                "reporter": {
+                    "displayName": "System"
+                },
+                "created": "2025-07-03T19:22:12.985216",
+                "updated": "2025-07-03T19:22:12.985218",
+                "description": "VCU shall receive motor RPM from the Coil Driver on CAN2 signal Inverter Status 1 - PGN 64372 (MG1IS1) [Should Have, Draft]"
+            }
+        },
+        {
+            "id": "660a011b-e1be-4f41-809b-2a8b5781125c",
+            "key": "CLVC-589",
+            "fields": {
+                "summary": "Revolutions ratio",
+                "issuetype": {
+                    "id": "100",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "displayName": "Unassigned"
+                },
+                "reporter": {
+                    "displayName": "System"
+                },
+                "created": "2025-07-03T19:22:12.985243",
+                "updated": "2025-07-03T19:22:12.985245",
+                "description": "The ratio between engine and wheel revolutions is: engine revolutions = 7,13 wheel revolutions [Should Have, Draft]"
+            }
+        },
+        {
+            "id": "f0acc874-6d52-4da3-8abd-fbfaa50fc500",
+            "key": "CLVC-599",
+            "fields": {
+                "summary": "Vehicle speed",
+                "issuetype": {
+                    "id": "100",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "displayName": "Unassigned"
+                },
+                "reporter": {
+                    "displayName": "System"
+                },
+                "created": "2025-07-03T19:22:12.985266",
+                "updated": "2025-07-03T19:22:12.985268",
+                "description": "Starting from wheel radius and RPM, VCU shall compute vehicle speed considering the transmission ratio according to the following:\n- (Motor RPM * wheel circumference) / transmission ratio\nalso taking into account any correction factors [Should Have, Draft]"
+            }
+        },
+        {
+            "id": "0d5942af-6ced-4c1f-a887-7e0f5d4499c3",
+            "key": "CLVC-600",
+            "fields": {
+                "summary": "Vehicle speed",
+                "issuetype": {
+                    "id": "100",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "displayName": "Unassigned"
+                },
+                "reporter": {
+                    "displayName": "System"
+                },
+                "created": "2025-07-03T19:22:12.985283",
+                "updated": "2025-07-03T19:22:12.985284",
+                "description": "VCU shall send the vehicle speed to the display on CAN2 signal VCU_VEHICLE_INFO_VehicleSpeed [Should Have, Draft]"
+            }
+        },
+        {
+            "id": "b22ec172-756c-45a4-935f-61a0419f2c6c",
+            "key": "CLVC-601",
+            "fields": {
+                "summary": "Trip distance",
+                "issuetype": {
+                    "id": "100",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "displayName": "Unassigned"
+                },
+                "reporter": {
+                    "displayName": "System"
+                },
+                "created": "2025-07-03T19:22:12.985312",
+                "updated": "2025-07-03T19:22:12.985314",
+                "description": "VCU shall compute both partial and total distance travelled by the vehicle and send these values to the display on CAN2 signals VCU_VEHICLE_INFO_PartialDistance and VCU_VEHICLE_INFO_TotalDistance [Should Have, Draft]"
+            }
+        },
+        {
+            "id": "1e148ee3-d51a-48b2-9c5e-52297350df9d",
+            "key": "CLVC-604",
+            "fields": {
+                "summary": "Trip distance",
+                "issuetype": {
+                    "id": "100",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "displayName": "Unassigned"
+                },
+                "reporter": {
+                    "displayName": "System"
+                },
+                "created": "2025-07-03T19:22:12.985331",
+                "updated": "2025-07-03T19:22:12.985334",
+                "description": "VCU shall calculate the trip distance from the vehicle speed using the appropriate correction factors [Should Have, Draft]"
+            }
+        },
+        {
+            "id": "d985b112-46d6-49ca-aff2-58be6ad6c14a",
+            "key": "CLVC-603",
+            "fields": {
+                "summary": "Partial distance",
+                "issuetype": {
+                    "id": "100",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "displayName": "Unassigned"
+                },
+                "reporter": {
+                    "displayName": "System"
+                },
+                "created": "2025-07-03T19:22:12.985365",
+                "updated": "2025-07-03T19:22:12.985368",
+                "description": "VCU shall be able to reset partial distance computed so far in order to start a new trip count when requested by the user [Should Have, Draft]"
+            }
+        },
+        {
+            "id": "3badaa17-67b0-4c8e-bec4-340ed3928f9b",
+            "key": "CLVC-602",
+            "fields": {
+                "summary": "Total distance",
+                "issuetype": {
+                    "id": "100",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "displayName": "Unassigned"
+                },
+                "reporter": {
+                    "displayName": "System"
+                },
+                "created": "2025-07-03T19:22:12.985402",
+                "updated": "2025-07-03T19:22:12.985404",
+                "description": "VCU shall store the total distance in the EEPROM and shall not allow the user to delete it [Should Have, Draft]\n\n---\n\nDriving – Functional requirements"
+            }
+        },
+        {
+            "id": "8752e474-6ed8-41f1-9e37-9341d3de29fd",
+            "key": "CLVC-590",
+            "fields": {
+                "summary": "Driving mode",
+                "issuetype": {
+                    "id": "100",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "displayName": "Unassigned"
+                },
+                "reporter": {
+                    "displayName": "System"
+                },
+                "created": "2025-07-03T19:22:12.985433",
+                "updated": "2025-07-03T19:22:12.985436",
+                "description": "The driving modes are the following:\n- Neutral\n- Forward\n- Reverse [Should Have, Draft]"
+            }
+        },
+        {
+            "id": "ad424525-101e-47f1-9f8d-a1b60be9578b",
+            "key": "CLVC-588",
+            "fields": {
+                "summary": "Driving direction",
+                "issuetype": {
+                    "id": "100",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "displayName": "Unassigned"
+                },
+                "reporter": {
+                    "displayName": "System"
+                },
+                "created": "2025-07-03T19:22:12.985473",
+                "updated": "2025-07-03T19:22:12.985476",
+                "description": "VCU shall send the driving direction on the CAN signal VcuTorqueSpeedThrottleRequest.EvGear and then receive the Coil Driver response on signal EcuStateFeedback.EvGearResp [Should Have, Draft]"
+            }
+        },
+        {
+            "id": "f5424017-aab9-4811-b16a-ec87b6cefd54",
+            "key": "CLVC-587",
+            "fields": {
+                "summary": "Parking mode",
+                "issuetype": {
+                    "id": "100",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "displayName": "Unassigned"
+                },
+                "reporter": {
+                    "displayName": "System"
+                },
+                "created": "2025-07-03T19:22:12.985499",
+                "updated": "2025-07-03T19:22:12.985501",
+                "description": "The parking mode is not foreseen for this project [Should Have, Draft]"
+            }
+        },
+        {
+            "id": "f162eaee-b83e-4503-b8eb-1540b9ec2900",
+            "key": "CLVC-588",
+            "fields": {
+                "summary": "ReadyToStart phase",
+                "issuetype": {
+                    "id": "100",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "displayName": "Unassigned"
+                },
+                "reporter": {
+                    "displayName": "System"
+                },
+                "created": "2025-07-03T19:22:12.985517",
+                "updated": "2025-07-03T19:22:12.985519",
+                "description": "At Key On, driving mode shall be in Neutral, ReadyToStart signal shall be disabled (Disactivate indicator from CAN Signal ReadyToStart from CAN msg 0x300) and PressBrakeStart signal shall be enabled (Activate indicator from CAN Signal PressBrakeStart from CAN msg 0x310). Then, pressing brake pedal, ReadyToStart signal shall be enabled (Activate indicator from CAN Signal ReadyToStart from CAN msg 0x300) and PressBrakeStart signal shall be disabled (Desactivate indicator from CAN Signal PressBrakeStart from CAN msg 0x310). Finally, always pressing the brake pedal, change driving mode to Forward or Reverse, and ReadyToStart shall be disabled again. [Should Have, Draft]"
+            }
+        },
+        {
+            "id": "978b7567-8071-453d-92ec-67811cee8069",
+            "key": "CLVC-589",
+            "fields": {
+                "summary": "Gear engagement mode",
+                "issuetype": {
+                    "id": "100",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "displayName": "Unassigned"
+                },
+                "reporter": {
+                    "displayName": "System"
+                },
+                "created": "2025-07-03T19:22:12.985532",
+                "updated": "2025-07-03T19:22:12.985533",
+                "description": "DrivingMode changing from Direct (D) to Reverse (R) (or vice versa) shall be possible by shifting to Neutral (N) and with speed [VehicleSpeed from Message3 (CAN ID 300)] of less than 4 km/h, while it should be disabled at a speed greater than 6 km/h. [Should Have, Draft]"
+            }
+        },
+        {
+            "id": "40b9f982-c26c-4030-a9bc-9e552b74a29c",
+            "key": "CLVC-591",
+            "fields": {
+                "summary": "Neutral Mode",
+                "issuetype": {
+                    "id": "100",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "displayName": "Unassigned"
+                },
+                "reporter": {
+                    "displayName": "System"
+                },
+                "created": "2025-07-03T19:22:12.985553",
+                "updated": "2025-07-03T19:22:12.985555",
+                "description": "The neutral mode shall correspond to null torque request to the inverter.\n\n---\n\n*End of requirement list.*"
+            }
+        }
+    ]
+}
