@@ -1,0 +1,2568 @@
+{
+    "expand": "schema,names",
+    "startAt": 0,
+    "maxResults": 80,
+    "total": 80,
+    "issues": [
+        {
+            "id": "1",
+            "key": "CLVC-559",
+            "fields": {
+                "summary": "Network",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "VCU shall communicate on both CAN1 and CAN2 acting as a gateway between two lines. On CAN1 it shall communicate with the BMS, On-Board Charger and Data Logger while on CAN2 with the Coil Driver, FLCU and Display. CAN1 and CAN2 buses baudrate shall be respectively 250 kbps and 500 kbps. Moreover, VCU shall acquire analog signals through dedicated sensors located in several parts of the vehicle[Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "2",
+            "key": "CLVC-561",
+            "fields": {
+                "summary": "Network",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "VCU messages shall be sent via CAN bus as provided by the latest version of the DBC (Customer_vx.x.dbc)[Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "3",
+            "key": "CLVC-595",
+            "fields": {
+                "summary": "Pinout",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "VCU analog and digital I/O shall be considered as provided by the latest version of pinout (VCU_Pinout_x. x.xlsx)[Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "4",
+            "key": "CLVC-564",
+            "fields": {
+                "summary": "Power on/off",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "The VCU shall be turned on by the Key input on pin 207 and then shall wake up other ECUs. A Key Off event shall turn off the VCU[Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "5",
+            "key": "CLVC-563",
+            "fields": {
+                "summary": "Sleep/low power",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "(TBD)[Should Have, Draft] VCU gateway Functional requirements",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "6",
+            "key": "CLVC-582",
+            "fields": {
+                "summary": "CAN gateway",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "VCU shall acquire CAN1 signal and send them on CAN2 acting as a gateway between CAN buses. In particular VCU shall redirect either the information received from BMS to the display, either the commands to manage the Coil Driver[Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "7",
+            "key": "CLVC-581",
+            "fields": {
+                "summary": "Temperature",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "VCU shall acquire motor temperature through a PTC thermistor placed on pin 103 and then shall send the processed value to the display on CAN2 signal VCU_VEHICLE_INFO_MotorTemp[Should Have, Draft] Non-functional requirements ​​ BMS Functional requirements",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "8",
+            "key": "CLVC-565",
+            "fields": {
+                "summary": "Power on/off",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "VCU shall power on/off the BMS through a digital output on pin 102, depending on the key value. In particular at Key On the digital output shall be at HIGH value, instead at Key Off the digital output shall be at LOW value[Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "9",
+            "key": "CLVC-567",
+            "fields": {
+                "summary": "Communication timeout",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "When communicating with the BMS, VCU shall foresee a communication timeout on the BUS channel[Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "10",
+            "key": "CLVC-568",
+            "fields": {
+                "summary": "Communication timeout reaction",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "In case of BMS timeout, VCU shall prevent the battery from delivering current. Energy absorption shall be no longer requested from the system[Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "11",
+            "key": "CLVC-569",
+            "fields": {
+                "summary": "Error management",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "VCU shall read the BMS status word 1 in order to get information about general status and to identify possible errors reported by the BMS. Furthermore, the VCU shall send a message to the display in order to show the user a notification[Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "12",
+            "key": "CLVC-598",
+            "fields": {
+                "summary": "State of charge",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "In order to get the actual value of SoC, VCU shall analyze and integrate data regarding state of health, temperature and current absorption of the battery[Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "13",
+            "key": "CLVC-570",
+            "fields": {
+                "summary": "Undervoltage error",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "In case of UV error, if vehicle speed is zero, the VCU shall restart the BMS and then shall immediately request a new recharge ensuring only this operating mode. No other operating mode are allowed[Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "14",
+            "key": "CLVC-571",
+            "fields": {
+                "summary": "Automatic shutdown",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "VCU shall foresee an automatic shutdown for BMS when the following conditions are met:\n- key on\n- vehicle not in charge\n- vehicle stopped\n- throttle pedal not pressed for at least 10 min (f.t.v.)\nif all the previous are satisfied then VCU shall rise the BMS deactivation flag\nelse if at least one of these condition fails then VCU shall restart the counter[Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "15",
+            "key": "CLVC-578",
+            "fields": {
+                "summary": "Gear disabling",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "VCU shall forbid the gear selection during “Charging Phase”, it shall always send on CAN the neutral value[Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "16",
+            "key": "CLVC-594",
+            "fields": {
+                "summary": "Charging Phase Detection",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "The vehicle enters the “Charging Phase” if ( CB_CHARGING.Charging_phase == 1) OR (<PlugDetection> == TRUE). [Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "17",
+            "key": "CLVC-586",
+            "fields": {
+                "summary": "Warning management",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "VCU shall read the BMS status word 2 in order to get information about warnings and possible faulty conditions. Appropriate countermeasures shall be taken into account, including sending a message to the display[Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "18",
+            "key": "CLVC-613",
+            "fields": {
+                "summary": "Consumption",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "VCU shall read the BMS signal BMS_FRAME_4_kwh_ds in order to calculate kW consumption in the time interval between two samples according to the following: Wh discharged during the interval (T1,T2) / distance traveled in the interval (T1,T2)[Should Have, Draft] Non-functional requirements",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "19",
+            "key": "CLVC-566",
+            "fields": {
+                "summary": "Communication timeout",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "The communication timeout shall be at most 5 s (f.t.v.)[Should Have, Draft] Vehicle speed and trip distance Functional requirements",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "20",
+            "key": "CLVC-585",
+            "fields": {
+                "summary": "Motor speed",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "VCU shall receive motor RPM from the Coil Driver on CAN2 signal Inverter Status 1 - PGN 64372 (MG1IS1) [Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "21",
+            "key": "CLVC-589",
+            "fields": {
+                "summary": "Revolutions ratio",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "The ratio between engine and wheel revolutions is: engine revolutions = 7,13 wheel revolutions[Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "22",
+            "key": "CLVC-599",
+            "fields": {
+                "summary": "Vehicle speed",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "Starting from wheel radius and RPM, VCU shall compute vehicle speed considering the transmission ratio according to the following:\n- (Motor RPM * wheel circumference) / transmission ratio\nalso taking into account any correction factors[Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "23",
+            "key": "CLVC-600",
+            "fields": {
+                "summary": "Vehicle speed",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "VCU shall send the vehicle speed to the display on CAN2 signal VCU_VEHICLE_INFO_VehicleSpeed[Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "24",
+            "key": "CLVC-601",
+            "fields": {
+                "summary": "Trip distance",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "VCU shall compute both partial and total distance traveled by the vehicle and send these values to the display on CAN2 signals VCU_VEHICLE_INFO_PartialDistance and VCU_VEHICLE_INFO_TotalDistance[Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "25",
+            "key": "CLVC-604",
+            "fields": {
+                "summary": "Trip distance",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "VCU shall calculate the trip distance from the vehicle speed using the appropriate correction factors[Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "26",
+            "key": "CLVC-603",
+            "fields": {
+                "summary": "Partial distance",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "VCU shall be able to reset partial distance computed so far in order to start a new trip count when requested by the user[Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "27",
+            "key": "CLVC-602",
+            "fields": {
+                "summary": "Total distance",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "VCU shall store the total distance in the EEPROM and shall not allow the user to delete it[Should Have, Draft] Non-functional requirements ​​ Driving Functional requirements",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "28",
+            "key": "CLVC-590",
+            "fields": {
+                "summary": "Driving mode",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "The driving modes are the following:\n- Neutral\n- Forward\n- Reverse[Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "29",
+            "key": "CLVC-588",
+            "fields": {
+                "summary": "Driving direction",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "VCU shall send the driving direction on the CAN signal VcuTorqueSpeedThrottleRequest.EvGear and then receive the Coil Driver response on signal EcuStateFeedback.EvGearResp[Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "30",
+            "key": "CLVC-587",
+            "fields": {
+                "summary": "Parking mode",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "The parking mode is not foreseen for this project[Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "31",
+            "key": "CLVC-588",
+            "fields": {
+                "summary": "ReadyToStart phase",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "At Key On, driving mode shall be in Neutral, ReadyToStart signal shall be disabled  (Disactivate indicator from CAN Signal ReadyToStart from CAN msg 0x300) and PressBrakeStart signal shall be enabled  (Activate indicator from CAN Signal PressBrakeStart from CAN msg 0x310). Then, pressing brake pedal, ReadyToStart signal shall be enabled (Activate indicator from CAN Signal ReadyToStart from CAN msg 0x300) and PressBrakeStart signal shall be disabled (Desactivate indicator from CAN Signal PressBrakeStart from CAN msg 0x310). Finally, always pressing the brake pedal, change driving mode to Forward or Reverse, and ReadyToStart shall be disabled again. [Should have, Draft].",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "32",
+            "key": "CLVC-589",
+            "fields": {
+                "summary": "Gear engagement mode",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "DrivingMode changing from Direct (D) to Reverse  (R) (or vice versa) shall  be possible by shifting to Neutral  (N) and with speed [VehicleSpeed from Message3 (CAN ID 300)] of less than 4 km/h, while it should be disabled at a speed greater than 6 km/h. [Should have, Draft].",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "33",
+            "key": "CLVC-591",
+            "fields": {
+                "summary": "Neutral Mode",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "The neutral mode shall correspond to null torque request to the inverter. Non-functional requirements ​​ Lights management Functional requirements",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "34",
+            "key": "CLVC-605",
+            "fields": {
+                "summary": "Power",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "FLCU system shall be powered through KL15, at power on it awaits for CAN messages for a certain time (200 ms f.t.v.) whereupon it enters safety mode[Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "35",
+            "key": "CLVC-606",
+            "fields": {
+                "summary": "Optical unit functionalities",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "VCU shall provide the power on indication for the following functionalities on the CAN message VCU_COMMAND_LIGHTS:\n- daytime running lights (DRL)\n- position lights\n- low beam\n- high beam\n- passing (both LB and HB)\n- turn indicators\n- hazard\n- night sensor\n- welcome animation\nFLCU shall manage the conditions and send the related signal status on the CAN message FLCU_STATUS[Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "36",
+            "key": "CLVC-607",
+            "fields": {
+                "summary": "Welcome animation",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "When VCU sends the signal VCU_COMMAND_LIGHTS_welcome_cmd = 0x1, FLCU shall activate the welcome animation by lighting both turn indicators N times (N=2 f.t.v.) and then lighting DRL as long as VCU sends the signal at high value\n​​[Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "37",
+            "key": "CLVC-609",
+            "fields": {
+                "summary": "Charge animation",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "When VCU sends the signal VCU_COMMAND_LIGHTS_charge_cmd = 0x1, FLCU shall activate the charge animation by lighting DRL and position lights and linearly increasing the brightness 5 times in 2 s. Then, after 1000 ms, linearly decreasing the brightness 5 times in 2s. This procedure shall be repeated as long as the signal is at high value[Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "38",
+            "key": "CLVC-610",
+            "fields": {
+                "summary": "Priority",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "When welcome and charge animation are active, FLCU shall not manage other VCU commands status. Charge animation has major priority over welcome one[Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "39",
+            "key": "CLVC-608",
+            "fields": {
+                "summary": "Error management",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "In order to inform VCU about errors, FLCU shall send the message FLCU_ERROR_flcu_status = 0x1. If there are multiple errors at the same time, they shall be sent sequentially indicating their number through the signal FLCU_ERROR_total_actual_errors[Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "40",
+            "key": "CLVC-612",
+            "fields": {
+                "summary": "Error management",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "When a failure happens, FLCU shall disable the relative functionality and detect the error for a suitable time[Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "41",
+            "key": "CLVC-611",
+            "fields": {
+                "summary": "CAN error",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "When FLCU loses communication for at least 20 consecutive messages, it shall set the safety mode by lighting low beams and position lights[Should Have, Draft] Non-functional requirements ​​ Acceleration and regenerative braking Functional requirements",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "42",
+            "key": "CLVC-596",
+            "fields": {
+                "summary": "Throttle pedal",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "Acceleration is obtained by two analog input through a 0-5 V sensor placed on pin 106 and 129 [Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "43",
+            "key": "CLVC-575",
+            "fields": {
+                "summary": "Throttle pedal",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "In order to drive the engine, throttle pedal pressure percentage shall be sent to the Coil Driver on CAN2 signal VcuTorqueSpeedThrottleRequest.ThrottleRequest[Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "44",
+            "key": "CLVC-",
+            "fields": {
+                "summary": "Signal coherence check",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "The VCU shall read the values of the two analog inputs and verify whether the ratio between the two readings falls within the specified valid range [Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "45",
+            "key": "CLVC-",
+            "fields": {
+                "summary": "Throttle signal  - Coherence true",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "If the readings of the two sensors are  consistent, the VCU should calculate the throttle signal using the weighted average of the two readings.  [Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "46",
+            "key": "CLVC-",
+            "fields": {
+                "summary": "Throttle signal  - Coherence false",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "If the readings from the two sensors are inconsistent, and the value from the sensor on pin 106 is greater than the value from the sensor on pin 129, the VCU shall set the throttle signal to the value read from the sensor on pin 106. If the readings from the two sensors are inconsistent, and the value from the sensor on pin 129 is greater than the value from the sensor on pin 106, the VCU shall set the throttle signal to the value read from the sensor on pin 129.  [Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "47",
+            "key": "CLVC-",
+            "fields": {
+                "summary": "Throttle signal  - Fault",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "The VCU shall monitor the fault conditions of the two sensors.  If a fault is detected on sensor 129, the VCU will set the throttle signal to the value read by the sensor on pin 106. If a fault is detected on sensor 106 , the VCU will set the throttle signal to the value read by the sensor on pin 129 . If a fault is detected on both sensors, the VCU will set the throttle signal to zero. [Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "48",
+            "key": "CLVC-",
+            "fields": {
+                "summary": "Throttle signal  -  Error Handling",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "If the readings of the two potentiometers are not consistent, the vcu should raise an error flag . When the error flag is raised, the VCU activates the downgrade function.  [Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "49",
+            "key": "CLVC-597",
+            "fields": {
+                "summary": "Brake pedal",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "Braking is obtained by a 4,5 kOhm Pull-up digital input placed on pin 178[Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "50",
+            "key": "CLVC-591",
+            "fields": {
+                "summary": "Regenerative braking",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "Two kind of regenerative braking shall be taken into account:\n- throttle pedal releasing\n- brake pedal pressure\nboth modes shall be possible only if the battery can receive current thus being recharged[Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "51",
+            "key": "CLVC-592",
+            "fields": {
+                "summary": "First mode",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "Throttle pedal percentage shall assume the value -20% until motor RPM are equal to 0, then it shall assume the value 0%. If the throttle pedal is pressed again, the actual pressure percentage shall be taken into account[Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "52",
+            "key": "CLVC-593",
+            "fields": {
+                "summary": "Second mode",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "Throttle pedal percentage shall assume the value -50% until motor RPM are equal to 0, then it shall assume the value 0%. If the throttle pedal is pressed again, the actual pressure percentage shall be taken into account[Should Have, Draft] Non-functional requirements ​​ Diagnostic and fault recovery Functional requirements ​​ Non-functional requirements ​​ Inverter charging phase Functional requirements",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "53",
+            "key": "CLVC-572",
+            "fields": {
+                "summary": "Voltage signals",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "VCU shall receive the Coil Driver voltage on CAN signal EcuFaultAndStatus.BatteryVoltage and the BMS voltage on CAN signal BMS_FRAME_1.BMS_FRAME_1_battery_voltage[Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "54",
+            "key": "CLVC-573",
+            "fields": {
+                "summary": "Precharge and starting",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "At Key On, VCU shall activate pin 174 thus keeping the precharge until the Coil Driver voltage reaches the 90% of battery voltage, only if it is verified that  the BMS Battery voltage plus 10% of its value is greater than Coil Driver voltage . Then VCU shall disable the precharge and enable the starting condition by activating pin 150[Should Have, Draft] CVLC-574 - Startup [CVLC-574.1] At Key On, VCU shall start from “Power On” state (Mode 0 from CAN Signal MG1MF1-MG1InvtrCtrlSetptMode). VCU shall remain in the “Power On” state until Precharge is completed. [CVLC-574.2] VCU shall transition to the “Standby” state upon completing the Precharge procedure. VCU shall send Standby mode request (Mode 2 from CAN Signal MG1IC-MG1InvtrCtrlSetptModeReq) only after Precharge is completed. The system shall transition to the “Torque Control state” upon receiving Standby mode feedback from Inverter  (Mode 2 from CAN Signal MG1MF1-MG1InvtrCtrlSetptMode). [CVLC-574.3], VCU shall send Torque Control (Mode 7  from CAN Signal MG1IC-MG1InvtrCtrlSetptModeReq)]. VCU shall remain in the “Torque Control” state.",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "55",
+            "key": "CLVC-577",
+            "fields": {
+                "summary": "Powering off",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "At Key Off, VCU shall disable the starting condition deactivating pin 150 and disconnecting the Coil Driver from the BMS[Should Have, Draft] Non-functional requirements Engine torque derating Functional requirements",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "56",
+            "key": "CLVC-",
+            "fields": {
+                "summary": "Inverter Fault signals",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "VCU shall receive the signal FaultCode on CAN1 message InvFault1  and on CAN1 message InvFault2 [Should Have, Draft].",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "57",
+            "key": "CLVC-",
+            "fields": {
+                "summary": "BMS Temperature Errors",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "VCU shall receive the signals “BMS_FRAME_1_ov_discharg_temp_err”,  “BMS_FRAME_1_un_charg_temp_err”, “BMS_FRAME_1_over_charging_temp” and “BMS_FRAME_1_un_discharg_temp_err” on CAN0 “BMS_FRAME_1_D” message [Should Have, Draft].",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "58",
+            "key": "CLVC-",
+            "fields": {
+                "summary": "Derating condition",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "VCU shall active  the derating function when BMS temperature errors occur and a FaultCode signal is received from the inverter. The value of a FaultCode that activates derating is specified in “Table 6.1 Inverter fault severity of the document InverterVendor Coil Drivers communication manual rev3”.  [Should Have, Draft].",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "59",
+            "key": "CLVC-",
+            "fields": {
+                "summary": "Derating Temporal Filter",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "VCU shall active  the derating function if the BMS temperature errors occur and a FaultCode signal is received from the inverter, for at least five seconds. The VCU shall monitor the presence of the errors for fifteen seconds: if after fifteen seconds the error is still present the dereting strategy  remains active until the keyOn/KeyOff, otherwise the strategy is deactivated. [Should Have, Draft].",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "60",
+            "key": "CLVC-",
+            "fields": {
+                "summary": "Derating function Implementation",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "When the derating function is activated, the VCU shall progressively reduce the torque request to the motor until it reaches a limit of 10% of the maximum torque. Once this limit is reached, any variation in the input torque request,shall not result in an increase of Torque Request, which shall remain capped at 10% of the maximum torque.",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "61",
+            "key": "CLVC-",
+            "fields": {
+                "summary": "Derating function Reduction in time",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "Torque reduction during the derating process shall be implemented by decreasing the output torque request by a predefined step (Step) at regular intervals (TimeInterval) until the 10% threshold is reached. Non-functional requirements Turtle Mode Functional requirements",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "62",
+            "key": "CLVC-",
+            "fields": {
+                "summary": "Inverter fault signal",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "VCU shall receive the signal FaultCode on CAN1 message InvFault1  and on CAN1 message InvFault2 [Should Have, Draft].",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "63",
+            "key": "CLVC-",
+            "fields": {
+                "summary": "State of charge signal",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "VCU shall receive the signal BMS_FRAME_3_soc on CAN0 message BMS_FRAME_3_D  [Should Have, Draft].",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "64",
+            "key": "CLVC-",
+            "fields": {
+                "summary": "BMS error",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "VCU shall receive the message BMS_FRAME_1_D [Should Have, Draft].",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "65",
+            "key": "CLVC-",
+            "fields": {
+                "summary": "Activation conditions",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "The VCU shall activate Turtle Mode if it receives, at least, one fault code from InvFault1 or InvFault2 for, at least, five seconds. The VCU shall activate the “Turtle Mode” if the state of charge, BMS_FRAME_3_soc,  is less than 10 V. The VCU shall activate the “Turtle Mode”, it will present  an error from BMS_FRAME_1_D for, at least, five seconds.    [Should Have, Draft].",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "66",
+            "key": "CLVC-",
+            "fields": {
+                "summary": "Temporal filter",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "The VCU shall monitor the Turtle Mode trigger condition: the filter is applied to inverter and BMS errors, with a delay of 5 seconds. [Should Have, Draft] The VCU shall monitor the presence of the errors for fifteen seconds: if after fifteen seconds the error is still present the “Turtle Mode”  remains active. After fifteen seconds, the VCU shall monitor the presence of the errors: if the error is no longer present for at least  two seconds, the “Turtle mode” is deactivated  . [Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "67",
+            "key": "CLVC-",
+            "fields": {
+                "summary": "Speed limit",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "If the “Turtle Mode” is active, the speed limit is set at 35 km/h. [Should Have, Draft].",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "68",
+            "key": "CLVC-",
+            "fields": {
+                "summary": "Limit of torque request",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "If the “Turtle Mode” is active, the torque request is limited to 80%. [Should Have, Draft].",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "69",
+            "key": "CLVC-",
+            "fields": {
+                "summary": "Can Message/Lamp Management- Turtle Mode",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "If the “Turtle Mode” is active, the VCU shall send the “Active Indicator” on the Turtle Mode signal in the Message2_CasaliniDashboard. The VCU shall send the “desactivate indicator” if the error is no longer present after fifteen seconds. After fifteen seconds, the VCU shall send the “desactivate indicator”   if the error is no longer present for at least  two seconds . [Should Have, Draft] Non - Functional requirements Casalini Dashboard Functional requirements",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "70",
+            "key": "CLVC-",
+            "fields": {
+                "summary": "CasaliniDashboard Can Message",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "The VCU shall send on CAN1 to CasaliniDashboard the “Message2” as per the latest version of the DBC.  (CasaliniDashboard_v_x_x). [Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "71",
+            "key": "CLVC-",
+            "fields": {
+                "summary": "Motor Traction Fault- Activation",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "The VCU shall send “Active Indicator” on the “Motor Traction Fault” signal in the Message2_CasaliniDashboard when “InvFault1.FaultCode” or “InvFault2.FaultCode”  takes on one of these values: “MotorTemp” “MotorTempOutOfRange” “MotorPos” “MotorPosSinOutOfRange” “MotorPosCosOutOfRange” “MotorSpeed” “MotorAcceleration” “MotorStall”, for at least five seconds.[Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "72",
+            "key": "CLVC-",
+            "fields": {
+                "summary": "Motor Traction Fault- Fault Monitoring and Signal Deactivation",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "The VCU shall monitor the presence of the errors for fifteen seconds: if after fifteen seconds the error is still present  the signal remains as “Activate indicator” until the keyOn/KeyOff,otherwise the VCU shall send “Desactivate indicator”. [Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "73",
+            "key": "CLVC-",
+            "fields": {
+                "summary": "Powertrain System Fault - Activation",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "The VCU shall send “Active Indicator” on the “Powertrain System Fault” signal in the Message2_CasaliniDashboard if it receives, at least, one fault code from InvFault1 or InvFault2 for, at least, five seconds. [Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "74",
+            "key": "CLVC-",
+            "fields": {
+                "summary": "Powertrain System Fault - Fault Monitoring and Signal Deactivation",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "The VCU shall monitor the presence of the errors for fifteen seconds: if after fifteen seconds the error is still present  the signal remains as “Activate indicator”, otherwise the VCU shall send “Desactivate indicator”. After fifteen seconds, The VCU continues to monitor the presence of the error: if the error is no longer present for at least two seconds, the VCU shall send “Desactivate indicator”. [Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "75",
+            "key": "CLVC-",
+            "fields": {
+                "summary": "Battery Temperature Fault - Activation",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "The VCU shall send “Active Indicator” on the “Battery Temperature Fault” signal in the Message2_CasaliniDashboard if there is an error of “BMS_FRAME_1_over_charging_temp”, “BMS_FRAME_1_un_charg_temp_err”, “BMS_FRAME_1_ov_discharg_temp_err” and “BMS_FRAME_1_un_discharg_temp_err” on message BMS_FRAME_1 error for at least five seconds. [Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "76",
+            "key": "CLVC-",
+            "fields": {
+                "summary": "Battery Temperature Fault - Fault Monitoring and Signal Deactivation",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "The VCU shall monitor the presence of the errors for fifteen seconds: if after fifteen seconds the error is still present  the signal remains as “Activate indicator” until the keyOn/KeyOff,  otherwise the VCU shall send “Desactivate indicator”.[Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "77",
+            "key": "CLVC-",
+            "fields": {
+                "summary": "Traction Battery Fault - Activation",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "The VCU shall send “Active Indicator” on the “Traction Battery Fault” signal in the Message2_CasaliniDashboard if there is a BMS_FRAME_1 error for at least five seconds. [Should have, draft].",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "78",
+            "key": "CLVC-",
+            "fields": {
+                "summary": "Traction Battery Fault - Fault Monitoring and Signal Deactivation",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "The VCU shall monitor the presence of the errors for fifteen seconds: if after fifteen seconds the error is still present  the signal remains as “Activate indicator”,otherwise the VCU shall send “Desactivate indicator”. After fifteen seconds, The VCU continues to monitor the presence of the error: if the error is no longer present for at least two seconds, the VCU shall send “Desactivate indicator”.[Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "79",
+            "key": "CLVC-",
+            "fields": {
+                "summary": "Charging Temperature Fault - Activation",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "The VCU shall send “Active Indicator” on the “Charging Temperature Fault” signal in the Message2_CasaliniDashboard if there is an error of “BMS_FRAME_1_over_charging_temp” and  “BMS_FRAME_1_un_charg_temp_err” on message BMS_FRAME_1 error for at least five seconds. [Should Have, Draft]",
+                "verifiableByCodeOnly": false
+            }
+        },
+        {
+            "id": "80",
+            "key": "CLVC-",
+            "fields": {
+                "summary": "Charging Temperature Fault - Fault Monitoring and Signal Deactivation",
+                "issuetype": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/issuetype/100",
+                    "id": "100",
+                    "description": "A software requirement",
+                    "name": "Requirement"
+                },
+                "status": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/status/1",
+                    "id": "1",
+                    "name": "Open"
+                },
+                "assignee": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=unassigned",
+                    "displayName": "Unassigned",
+                    "accountId": "unassigned"
+                },
+                "reporter": {
+                    "self": "https://your-domain.atlassian.net/rest/api/2/user?accountId=system",
+                    "displayName": "System",
+                    "accountId": "system"
+                },
+                "created": "2025-07-03T13:29:54.000+0200",
+                "updated": "2025-07-03T13:29:54.000+0200",
+                "description": "The VCU shall monitor the presence of the errors for fifteen seconds: if after fifteen seconds the error is still present  the signal remains as  “Activate indicator” until the keyOn/KeyOff,otherwise the VCU shall send “Desactivate indicator”. [Should Have, Draft] Non - Functional requirements",
+                "verifiableByCodeOnly": false
+            }
+        }
+    ]
+}
