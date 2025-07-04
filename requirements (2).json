@@ -1,0 +1,1776 @@
+{
+  "expand": "schema,names",
+  "startAt": 0,
+  "maxResults": 68,
+  "total": 68,
+  "issues": [
+    {
+      "id": "30001",
+      "key": "REQ-0001",
+      "fields": {
+        "summary": "Network",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "VCU shall communicate on both CAN1 and CAN2 acting as a gateway between two lines. On CAN1 it shall communicate with the BMS, On-Board Charger and Data Logger while on CAN2 with the Coil Driver, FLCU and Display. CAN1 and CAN2 buses baud-rates shall be 250 kbps and 500 kbps respectively. VCU shall also acquire analogue signals through dedicated sensors located in several parts of the vehicle."
+      }
+    },
+    {
+      "id": "30002",
+      "key": "REQ-0002",
+      "fields": {
+        "summary": "DBC compliance",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "VCU messages shall be sent via CAN bus exactly as provided by the latest version of the DBC file (Customer_vx.x.dbc)."
+      }
+    },
+    {
+      "id": "30003",
+      "key": "REQ-0003",
+      "fields": {
+        "summary": "Pinout",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "VCU analogue and digital I\u2044O shall follow the latest pinout file (VCU_Pinout_x.x.xlsx)."
+      }
+    },
+    {
+      "id": "30004",
+      "key": "REQ-0004",
+      "fields": {
+        "summary": "Power on \u2044 off",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "The VCU shall be turned on by the Key input on pin 207 and then shall wake up other ECUs. A Key-Off event shall turn off the VCU."
+      }
+    },
+    {
+      "id": "30005",
+      "key": "REQ-0005",
+      "fields": {
+        "summary": "Sleep \u2044 low power",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "(TBD)"
+      }
+    },
+    {
+      "id": "30006",
+      "key": "REQ-0006",
+      "fields": {
+        "summary": "CAN gateway",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "VCU shall acquire CAN1 signals and send them on CAN2, acting as a gateway between CAN buses. In particular, VCU shall redirect information received from the BMS to the display and commands to manage the Coil Driver."
+      }
+    },
+    {
+      "id": "30007",
+      "key": "REQ-0007",
+      "fields": {
+        "summary": "Motor temperature",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "VCU shall acquire motor temperature through a PTC thermistor on pin 103 and send the processed value on CAN2 signal VCU_VEHICLE_INFO_MotorTemp."
+      }
+    },
+    {
+      "id": "30008",
+      "key": "REQ-0008",
+      "fields": {
+        "summary": "BMS power on \u2044 off",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "VCU shall power the BMS on or off via digital output pin 102 depending on key status: HIGH at Key-On, LOW at Key-Off."
+      }
+    },
+    {
+      "id": "30009",
+      "key": "REQ-0009",
+      "fields": {
+        "summary": "BMS communication timeout",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "When communicating with the BMS, VCU shall implement a communication timeout on the bus channel."
+      }
+    },
+    {
+      "id": "30010",
+      "key": "REQ-0010",
+      "fields": {
+        "summary": "Timeout reaction",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "If a BMS timeout occurs, VCU shall prevent the battery from delivering current and shall stop requesting energy absorption."
+      }
+    },
+    {
+      "id": "30011",
+      "key": "REQ-0011",
+      "fields": {
+        "summary": "BMS error management",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "VCU shall read BMS status word 1 to obtain general status and identify possible errors, then send a notification message to the display."
+      }
+    },
+    {
+      "id": "30012",
+      "key": "REQ-0012",
+      "fields": {
+        "summary": "State of charge",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "VCU shall calculate the actual SoC by analysing and integrating data for state of health, temperature and current absorption."
+      }
+    },
+    {
+      "id": "30013",
+      "key": "REQ-0013",
+      "fields": {
+        "summary": "Undervoltage reaction",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "If an undervoltage error occurs while vehicle speed is zero, VCU shall restart the BMS and immediately request a recharge-only mode."
+      }
+    },
+    {
+      "id": "30014",
+      "key": "REQ-0014",
+      "fields": {
+        "summary": "Automatic BMS shutdown",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "VCU shall shut down the BMS automatically when: key on, vehicle not charging, vehicle stopped, throttle not pressed for at least 10 min; otherwise the shutdown timer resets."
+      }
+    },
+    {
+      "id": "30015",
+      "key": "REQ-0015",
+      "fields": {
+        "summary": "Gear disabling during charge",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "VCU shall forbid gear selection during Charging Phase by always sending Neutral on CAN."
+      }
+    },
+    {
+      "id": "30016",
+      "key": "REQ-0016",
+      "fields": {
+        "summary": "Charging phase detection",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "Vehicle enters Charging Phase when CB_CHARGING.Charging_phase equals 1 or PlugDetection equals TRUE."
+      }
+    },
+    {
+      "id": "30017",
+      "key": "REQ-0017",
+      "fields": {
+        "summary": "BMS warning management",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "VCU shall read BMS status word 2 to obtain warning information and take counter-measures, including sending a display message."
+      }
+    },
+    {
+      "id": "30018",
+      "key": "REQ-0018",
+      "fields": {
+        "summary": "Consumption calculation",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "VCU shall compute Wh per km using BMS_FRAME_4_kwh_ds and distance between consecutive samples."
+      }
+    },
+    {
+      "id": "30019",
+      "key": "REQ-0019",
+      "fields": {
+        "summary": "Communication timeout limit",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "The BMS communication timeout shall be at most 5 s."
+      }
+    },
+    {
+      "id": "30020",
+      "key": "REQ-0020",
+      "fields": {
+        "summary": "Motor speed reception",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "VCU shall receive motor RPM from the Coil Driver on CAN2 PGN 64372 (MG1IS1)."
+      }
+    },
+    {
+      "id": "30021",
+      "key": "REQ-0021",
+      "fields": {
+        "summary": "Revolutions ratio",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "engine_rev = 7.13 \u00d7 wheel_rev."
+      }
+    },
+    {
+      "id": "30022",
+      "key": "REQ-0022",
+      "fields": {
+        "summary": "Vehicle speed broadcast",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "VCU shall send the computed vehicle speed on CAN2 signal VCU_VEHICLE_INFO_VehicleSpeed."
+      }
+    },
+    {
+      "id": "30023",
+      "key": "REQ-0023",
+      "fields": {
+        "summary": "Trip distance values",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "VCU shall compute partial and total distance and send them on CAN2 signals VCU_VEHICLE_INFO_PartialDistance and VCU_VEHICLE_INFO_TotalDistance."
+      }
+    },
+    {
+      "id": "30024",
+      "key": "REQ-0024",
+      "fields": {
+        "summary": "Trip distance calculation",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "VCU shall calculate trip distance from vehicle speed using appropriate correction factors."
+      }
+    },
+    {
+      "id": "30025",
+      "key": "REQ-0025",
+      "fields": {
+        "summary": "Partial distance reset",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "VCU shall allow the user to reset partial distance to start a new trip counter."
+      }
+    },
+    {
+      "id": "30026",
+      "key": "REQ-0026",
+      "fields": {
+        "summary": "Total distance persistence",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "VCU shall store total distance in EEPROM and shall not allow the user to delete it."
+      }
+    },
+    {
+      "id": "30027",
+      "key": "REQ-0027",
+      "fields": {
+        "summary": "Driving modes",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "Valid driving modes are Neutral, Forward, Reverse."
+      }
+    },
+    {
+      "id": "30028",
+      "key": "REQ-0028",
+      "fields": {
+        "summary": "Driving direction",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "VCU shall send the driving direction on CAN signal VcuTorqueSpeedThrottleRequest.EvGear and receive Coil Driver response on EcuStateFeedback.EvGearResp."
+      }
+    },
+    {
+      "id": "30029",
+      "key": "REQ-0029",
+      "fields": {
+        "summary": "Parking mode",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "Parking mode is not foreseen for this project."
+      }
+    },
+    {
+      "id": "30030",
+      "key": "REQ-0030",
+      "fields": {
+        "summary": "Ready-to-Start phase",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "At Key-On: mode Neutral, ReadyToStart indicator off, PressBrakeStart on. Pressing the brake enables ReadyToStart and disables PressBrakeStart. With brake pressed, selecting Forward or Reverse disables ReadyToStart again."
+      }
+    },
+    {
+      "id": "30031",
+      "key": "REQ-0031",
+      "fields": {
+        "summary": "Gear engagement rule",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "Shifting between Direct and Reverse requires Neutral and vehicle speed below 4 km\u2044h; shifting is disabled above 6 km\u2044h."
+      }
+    },
+    {
+      "id": "30032",
+      "key": "REQ-0032",
+      "fields": {
+        "summary": "Neutral definition",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "Neutral mode corresponds to zero torque request to the inverter."
+      }
+    },
+    {
+      "id": "30033",
+      "key": "REQ-0033",
+      "fields": {
+        "summary": "Optical unit commands",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "VCU shall provide command indications for DRL, position, low \u2044 high beam, passing, indicators, hazard, night sensor and welcome animation via VCU_COMMAND_LIGHTS. FLCU shall manage the lights and report status via FLCU_STATUS."
+      }
+    },
+    {
+      "id": "30034",
+      "key": "REQ-0034",
+      "fields": {
+        "summary": "FLCU error reporting",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "FLCU sets FLCU_ERROR_flcu_status = 1 and cycles through active error codes using FLCU_ERROR_total_actual_errors."
+      }
+    },
+    {
+      "id": "30035",
+      "key": "REQ-0035",
+      "fields": {
+        "summary": "Error isolation",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "Upon failure, FLCU disables the related function and logs the error for a suitable time."
+      }
+    },
+    {
+      "id": "30036",
+      "key": "REQ-0036",
+      "fields": {
+        "summary": "Throttle pedal inputs",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "Acceleration input is provided by two 0-5 V sensors on pins 106 and 129."
+      }
+    },
+    {
+      "id": "30037",
+      "key": "REQ-0037",
+      "fields": {
+        "summary": "Throttle request to inverter",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "VCU shall send throttle-pedal percentage to the Coil Driver on CAN2 signal VcuTorqueSpeedThrottleRequest.ThrottleRequest."
+      }
+    },
+    {
+      "id": "30038",
+      "key": "REQ-0038",
+      "fields": {
+        "summary": "Sensor coherence check",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "VCU shall verify that the ratio between the two throttle sensor readings is within the valid range."
+      }
+    },
+    {
+      "id": "30039",
+      "key": "REQ-0039",
+      "fields": {
+        "summary": "Throttle signal when coherent",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "If readings are consistent, throttle signal equals the weighted average of both sensors."
+      }
+    },
+    {
+      "id": "30040",
+      "key": "REQ-0040",
+      "fields": {
+        "summary": "Throttle signal when incoherent",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "If readings are inconsistent the throttle equals the higher of the two sensor values."
+      }
+    },
+    {
+      "id": "30041",
+      "key": "REQ-0041",
+      "fields": {
+        "summary": "Throttle signal on sensor fault",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "If one sensor is faulty throttle equals the other; if both sensors are faulty throttle is set to zero."
+      }
+    },
+    {
+      "id": "30042",
+      "key": "REQ-0042",
+      "fields": {
+        "summary": "Throttle error handling",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "Incoherent potentiometer readings raise an error flag and activate downgrade."
+      }
+    },
+    {
+      "id": "30043",
+      "key": "REQ-0043",
+      "fields": {
+        "summary": "Brake pedal input",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "Brake detection is via a 4.5 k\u03a9 pull-up digital input on pin 178."
+      }
+    },
+    {
+      "id": "30044",
+      "key": "REQ-0044",
+      "fields": {
+        "summary": "Regenerative braking modes",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "Regen braking shall occur on throttle release or brake press and only if the battery can accept charge."
+      }
+    },
+    {
+      "id": "30045",
+      "key": "REQ-0045",
+      "fields": {
+        "summary": "Regeneration mode 1",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "Throttle is set to \u201320 % until motor RPM reach zero then to 0 %. If pedal is pressed again the current value is used."
+      }
+    },
+    {
+      "id": "30046",
+      "key": "REQ-0046",
+      "fields": {
+        "summary": "Regeneration mode 2",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "Throttle is set to \u201350 % until motor RPM reach zero then to 0 %. If pedal is pressed again the current value is used."
+      }
+    },
+    {
+      "id": "30047",
+      "key": "REQ-0047",
+      "fields": {
+        "summary": "Startup state machine",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "State sequence: Power-On \u2192 Standby (Mode 2 request after pre-charge complete) \u2192 Torque Control (Mode 7)."
+      }
+    },
+    {
+      "id": "30048",
+      "key": "REQ-0048",
+      "fields": {
+        "summary": "Power off sequence",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "At Key-Off VCU deactivates pin 150 and disconnects the Coil Driver from the BMS."
+      }
+    },
+    {
+      "id": "30049",
+      "key": "REQ-0049",
+      "fields": {
+        "summary": "Inverter fault signals",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "VCU shall receive FaultCode via CAN1 messages InvFault1 and InvFault2."
+      }
+    },
+    {
+      "id": "30050",
+      "key": "REQ-0050",
+      "fields": {
+        "summary": "BMS temperature errors",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "VCU shall receive temperature-error bits from BMS_FRAME_1."
+      }
+    },
+    {
+      "id": "30051",
+      "key": "REQ-0051",
+      "fields": {
+        "summary": "Derating condition",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "Derating activates when specified inverter FaultCodes coincide with BMS temperature errors."
+      }
+    },
+    {
+      "id": "30052",
+      "key": "REQ-0052",
+      "fields": {
+        "summary": "Derating temporal filter",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "Errors must persist 5 s to trigger; if present after 15 s derating stays active until key cycle, otherwise deactivates."
+      }
+    },
+    {
+      "id": "30053",
+      "key": "REQ-0053",
+      "fields": {
+        "summary": "Inverter fault for Turtle Mode",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "VCU monitors FaultCodes from InvFault1 and InvFault2 for Turtle Mode logic."
+      }
+    },
+    {
+      "id": "30054",
+      "key": "REQ-0054",
+      "fields": {
+        "summary": "State-of-charge signal",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "VCU reads BMS_FRAME_3_soc for Turtle Mode activation."
+      }
+    },
+    {
+      "id": "30055",
+      "key": "REQ-0055",
+      "fields": {
+        "summary": "BMS error for Turtle Mode",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "VCU monitors BMS_FRAME_1 errors for Turtle Mode."
+      }
+    },
+    {
+      "id": "30056",
+      "key": "REQ-0056",
+      "fields": {
+        "summary": "Turtle Mode activation",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "Turtle Mode activates if inverter or BMS error persists \u2265 5 s or SoC < 10 %."
+      }
+    },
+    {
+      "id": "30057",
+      "key": "REQ-0057",
+      "fields": {
+        "summary": "Turtle Mode temporal filter",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "Mode remains active if error persists 15 s; deactivates after error free for 2 s."
+      }
+    },
+    {
+      "id": "30058",
+      "key": "REQ-0058",
+      "fields": {
+        "summary": "CasaliniDashboard CAN message",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "VCU shall send Message2 to CasaliniDashboard on CAN1 according to the latest DBC."
+      }
+    },
+    {
+      "id": "30059",
+      "key": "REQ-0059",
+      "fields": {
+        "summary": "Motor Traction Fault activation",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "VCU activates Motor Traction Fault indicator if specified inverter fault codes persist \u2265 5 s."
+      }
+    },
+    {
+      "id": "30060",
+      "key": "REQ-0060",
+      "fields": {
+        "summary": "Motor Traction Fault monitoring",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "If fault persists 15 s indicator stays active until key cycle; otherwise deactivates."
+      }
+    },
+    {
+      "id": "30061",
+      "key": "REQ-0061",
+      "fields": {
+        "summary": "Powertrain System Fault activation",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "VCU activates Powertrain System Fault indicator if any inverter fault persists \u2265 5 s."
+      }
+    },
+    {
+      "id": "30062",
+      "key": "REQ-0062",
+      "fields": {
+        "summary": "Powertrain System Fault monitoring",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "Indicator remains active if fault persists 15 s; deactivates after 2 s fault-free."
+      }
+    },
+    {
+      "id": "30063",
+      "key": "REQ-0063",
+      "fields": {
+        "summary": "Battery Temperature Fault activation",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "VCU activates Battery Temperature Fault indicator for specified BMS temperature errors persisting \u2265 5 s."
+      }
+    },
+    {
+      "id": "30064",
+      "key": "REQ-0064",
+      "fields": {
+        "summary": "Battery Temperature Fault monitoring",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "Indicator remains active if fault persists 15 s; deactivates after key cycle or 2 s fault-free."
+      }
+    },
+    {
+      "id": "30065",
+      "key": "REQ-0065",
+      "fields": {
+        "summary": "Traction Battery Fault activation",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "VCU activates Traction Battery Fault indicator if a BMS_FRAME_1 error persists \u2265 5 s."
+      }
+    },
+    {
+      "id": "30066",
+      "key": "REQ-0066",
+      "fields": {
+        "summary": "Traction Battery Fault monitoring",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "Indicator remains active if fault persists 15 s; deactivates after 2 s fault-free."
+      }
+    },
+    {
+      "id": "30067",
+      "key": "REQ-0067",
+      "fields": {
+        "summary": "Charging Temperature Fault activation",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "VCU activates Charging Temperature Fault indicator for over \u2044 under charging temperature errors persisting \u2265 5 s."
+      }
+    },
+    {
+      "id": "30068",
+      "key": "REQ-0068",
+      "fields": {
+        "summary": "Charging Temperature Fault monitoring",
+        "issuetype": {
+          "id": "100",
+          "name": "Requirement"
+        },
+        "status": {
+          "id": "1",
+          "name": "Open"
+        },
+        "assignee": {
+          "accountId": "unassigned",
+          "displayName": "Unassigned"
+        },
+        "reporter": {
+          "accountId": "system",
+          "displayName": "System"
+        },
+        "created": "2025-07-03T21:47:59.000-0700",
+        "updated": "2025-07-03T21:47:59.000-0700",
+        "description": "Indicator remains active if fault persists 15 s; deactivates after key cycle or 2 s fault-free."
+      }
+    }
+  ]
+}
